@@ -880,9 +880,7 @@ pp.parseExportDeclaration = function () {
 
 pp.isExportDefaultSpecifier = function () {
   if (this.match(tt.name)) {
-    return this.state.value !== "type"
-        && this.state.value !== "async"
-        && this.state.value !== "interface";
+    return this.state.value !== "async";
   }
 
   if (!this.match(tt._default)) {

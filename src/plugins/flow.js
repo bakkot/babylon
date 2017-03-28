@@ -919,6 +919,17 @@ export default function (instance) {
     };
   });
 
+  instance.extend("isExportDefaultSpecifier", function (inner) {
+    return function () {
+      if (this.match(tt.name) &&
+         (this.state.value === "type" || this.state.value === "interface")) {
+        return false;
+      }
+      return inner.call(this);
+    };
+  });
+
+
   instance.extend("parseConditional", function (inner) {
     return function (expr, noIn, startPos, startLoc, refNeedsArrowPos) {
       // only do the expensive clone if there is a question mark
