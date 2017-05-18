@@ -242,6 +242,7 @@
             }
           }
         ],
+        "predicate": null,
         "returnType": {
           "type": "TypeAnnotation",
           "start": 34,
@@ -270,8 +271,7 @@
                 "column": 42
               }
             }
-          },
-          "predicate": null
+          }
         },
         "body": {
           "type": "BlockStatement",

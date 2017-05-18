@@ -182,6 +182,7 @@
               "expression": false,
               "async": false,
               "params": [],
+              "predicate": null,
               "returnType": {
                 "type": "TypeAnnotation",
                 "start": 23,
@@ -210,8 +211,7 @@
                       "column": 30
                     }
                   }
-                },
-                "predicate": null
+                }
               },
               "body": {
                 "type": "BlockStatement",

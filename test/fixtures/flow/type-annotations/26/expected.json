@@ -104,7 +104,6 @@
                   }
                 },
                 "method": true,
-                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "NumericLiteral",
@@ -198,6 +197,7 @@
                     }
                   }
                 ],
+                "predicate": null,
                 "returnType": {
                   "type": "TypeAnnotation",
                   "start": 15,
@@ -244,8 +244,7 @@
                       },
                       "name": "T"
                     }
-                  },
-                  "predicate": null
+                  }
                 },
                 "body": {
                   "type": "BlockStatement",

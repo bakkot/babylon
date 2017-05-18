@@ -150,13 +150,14 @@
                         }
                       }
                     }
-                  },
-                  "predicate": null
+                  }
                 }
-              }
+              },
+              "predicate": null
             }
           ]
-        }
+        },
+        "kind": "CommonJS"
       }
     ],
     "directives": []

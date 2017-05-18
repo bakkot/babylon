@@ -104,7 +104,6 @@
                   }
                 },
                 "method": false,
-                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -178,6 +177,7 @@
                     }
                   }
                 ],
+                "predicate": null,
                 "returnType": {
                   "type": "TypeAnnotation",
                   "start": 28,
@@ -206,8 +206,7 @@
                         "column": 33
                       }
                     }
-                  },
-                  "predicate": null
+                  }
                 },
                 "body": {
                   "type": "BlockStatement",

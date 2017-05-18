@@ -116,6 +116,7 @@
             }
           }
         ],
+        "predicate": null,
         "returnType": {
           "type": "TypeAnnotation",
           "start": 38,
@@ -162,8 +163,7 @@
               },
               "name": "HTMLDivElement"
             }
-          },
-          "predicate": null
+          }
         },
         "body": {
           "type": "BlockStatement",
