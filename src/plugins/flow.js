@@ -1060,7 +1060,7 @@ export default (superClass: Class<Parser>): Class<Parser> => class extends super
         || this.isContextual("interface")
         || super.shouldParseExportDeclaration();
   }
-          
+
   isExportDefaultSpecifier(): boolean {
     if (
       this.match(tt.name) &&
